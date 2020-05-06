@@ -10,8 +10,8 @@ class Player
 {
 public:
 	string _PlayerName = "";
-	int _hits = 1;
-	int _walks = 1;
-	int _outs = 1;
+	int _hits = 0;
+	int _walks = 0;
+	int _outs = 0;
 	float BatAvg = 0.0;
 };
